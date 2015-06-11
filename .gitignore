@@ -1,0 +1,12 @@
+.gradle/*
+.settings/*
+bin/*
+build/*
+eclipse/*
+gradle/*
+*.bdc3D
+gradlew
+gradlew.bat
+build.gradle
+*.txt
+textures_0.png

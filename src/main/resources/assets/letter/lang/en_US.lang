@@ -1,0 +1,8 @@
+item.reverse_stick.name=Reverse Stick
+item.vertical_stick.name=Vertical Stick
+item.horizontal_stick.name=Horizontal Stick
+tile.blue_a.name=Blue A
+tile.blue_b.name=Blue B
+tile.blue_c.name=Blue C
+tile.blue_g.name=Blue G
+itemGroup.tabLetters=Letters
