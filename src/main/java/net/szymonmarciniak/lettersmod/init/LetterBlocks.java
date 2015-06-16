@@ -14,12 +14,18 @@ public class LetterBlocks {
 	public static Block blue_a;
 	public static Block blue_b;
 	public static Block blue_c;
+	public static Block blue_d;
+	public static Block blue_e;
+	public static Block blue_f;
 	public static Block blue_g;
 	
 	public static void init(){
 		blue_a = new BlockLetters(Material.wood).setUnlocalizedName("blue_a").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_b = new BlockLetters(Material.wood).setUnlocalizedName("blue_b").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_c = new BlockLetters(Material.wood).setUnlocalizedName("blue_c").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_d = new BlockLetters(Material.wood).setUnlocalizedName("blue_d").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_e = new BlockLetters(Material.wood).setUnlocalizedName("blue_e").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_f = new BlockLetters(Material.wood).setUnlocalizedName("blue_f").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_g = new BlockLetters(Material.wood).setUnlocalizedName("blue_g").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		
 	}
@@ -28,6 +34,9 @@ public class LetterBlocks {
 		GameRegistry.registerBlock(blue_a, blue_a.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_b, blue_b.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_c, blue_c.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_d, blue_d.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_e, blue_e.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_f, blue_f.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_g, blue_g.getUnlocalizedName().substring(5));
 	}
 	
@@ -35,6 +44,9 @@ public class LetterBlocks {
 		registerRender(blue_a);
 		registerRender(blue_b);
 		registerRender(blue_c);
+		registerRender(blue_d);
+		registerRender(blue_e);
+		registerRender(blue_f);
 		registerRender(blue_g);
 	}
 	
