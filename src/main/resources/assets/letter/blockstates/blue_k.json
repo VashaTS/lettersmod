@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "facing=east": { "model": "letter:blue_k", "y": 90},
+        "facing=south": { "model": "letter:blue_k", "y": 180 },
+        "facing=west": { "model": "letter:blue_k", "y": 270 },
+        "facing=north": { "model": "letter:blue_k" },
+        "facing=up": { "model": "letter:blue_k", "x": 270 },
+        "facing=down": { "model": "letter:blue_k", "x": 90 }
+        
+    }
+}
