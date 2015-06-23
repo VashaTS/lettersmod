@@ -18,6 +18,9 @@ public class LetterBlocks {
 	public static Block blue_e;
 	public static Block blue_f;
 	public static Block blue_g;
+	public static Block blue_h;
+	public static Block blue_i;
+	public static Block blue_j;
 	
 	public static void init(){
 		blue_a = new BlockLetters(Material.wood).setUnlocalizedName("blue_a").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
@@ -27,7 +30,9 @@ public class LetterBlocks {
 		blue_e = new BlockLetters(Material.wood).setUnlocalizedName("blue_e").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_f = new BlockLetters(Material.wood).setUnlocalizedName("blue_f").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_g = new BlockLetters(Material.wood).setUnlocalizedName("blue_g").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
-		
+		blue_h = new BlockLetters(Material.wood).setUnlocalizedName("blue_h").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_i = new BlockLetters(Material.wood).setUnlocalizedName("blue_i").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_j = new BlockLetters(Material.wood).setUnlocalizedName("blue_j").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 	}
 	
 	public static void register(){
@@ -38,6 +43,9 @@ public class LetterBlocks {
 		GameRegistry.registerBlock(blue_e, blue_e.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_f, blue_f.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_g, blue_g.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_h, blue_h.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_i, blue_i.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_j, blue_j.getUnlocalizedName().substring(5));
 	}
 	
 	public static void registerRenders(){
@@ -48,6 +56,9 @@ public class LetterBlocks {
 		registerRender(blue_e);
 		registerRender(blue_f);
 		registerRender(blue_g);
+		registerRender(blue_h);
+		registerRender(blue_i);
+		registerRender(blue_j);
 	}
 	
 	public static void registerRender(Block block){
