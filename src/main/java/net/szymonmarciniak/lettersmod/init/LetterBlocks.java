@@ -25,6 +25,10 @@ public class LetterBlocks {
 	public static Block blue_l;
 	public static Block blue_m;
 	public static Block blue_n;
+	public static Block blue_o;
+	public static Block blue_p;
+	public static Block blue_q;
+	public static Block blue_r;
 	
 	public static void init(){
 		blue_a = new BlockLetters(Material.wood).setUnlocalizedName("blue_a").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
@@ -41,6 +45,10 @@ public class LetterBlocks {
 		blue_l = new BlockLetters(Material.wood).setUnlocalizedName("blue_l").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_m = new BlockLetters(Material.wood).setUnlocalizedName("blue_m").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_n = new BlockLetters(Material.wood).setUnlocalizedName("blue_n").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_o = new BlockLetters(Material.wood).setUnlocalizedName("blue_o").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_p = new BlockLetters(Material.wood).setUnlocalizedName("blue_p").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_q = new BlockLetters(Material.wood).setUnlocalizedName("blue_q").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_r = new BlockLetters(Material.wood).setUnlocalizedName("blue_r").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 	}
 	
 	public static void register(){
@@ -58,6 +66,10 @@ public class LetterBlocks {
 		GameRegistry.registerBlock(blue_l, blue_l.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_m, blue_m.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_n, blue_n.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_o, blue_o.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_p, blue_p.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_q, blue_q.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_r, blue_r.getUnlocalizedName().substring(5));
 	}
 	
 	public static void registerRenders(){
@@ -75,6 +87,10 @@ public class LetterBlocks {
 		registerRender(blue_l);
 		registerRender(blue_m);
 		registerRender(blue_n);
+		registerRender(blue_o);
+		registerRender(blue_p);
+		registerRender(blue_q);
+		registerRender(blue_r);
 	}
 	
 	public static void registerRender(Block block){

@@ -52,6 +52,10 @@ public class LettersMod {
 		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_l), "C  ","C  ","CBB",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
 		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_m), "DCA","C C","C C",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
 		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_n), "CDC","C C","C C",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
+		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_o), "ABD","C C","DBA",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
+		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_p), "CBD","CBA","C  ",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
+		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_q), "ABD","C C","DBD",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
+		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_r), "CBD","CBA","C D",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
 	}
 	
 	@EventHandler
