@@ -29,6 +29,14 @@ public class LetterBlocks {
 	public static Block blue_p;
 	public static Block blue_q;
 	public static Block blue_r;
+	public static Block blue_s;
+	public static Block blue_t;
+	public static Block blue_u;
+	public static Block blue_v;
+	public static Block blue_w;
+	public static Block blue_x;
+	public static Block blue_y;
+	public static Block blue_z;
 	
 	public static void init(){
 		blue_a = new BlockLetters(Material.wood).setUnlocalizedName("blue_a").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
@@ -49,6 +57,14 @@ public class LetterBlocks {
 		blue_p = new BlockLetters(Material.wood).setUnlocalizedName("blue_p").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_q = new BlockLetters(Material.wood).setUnlocalizedName("blue_q").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_r = new BlockLetters(Material.wood).setUnlocalizedName("blue_r").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_s = new BlockLetters(Material.wood).setUnlocalizedName("blue_s").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_t = new BlockLetters(Material.wood).setUnlocalizedName("blue_t").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_u = new BlockLetters(Material.wood).setUnlocalizedName("blue_u").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_v = new BlockLetters(Material.wood).setUnlocalizedName("blue_v").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_w = new BlockLetters(Material.wood).setUnlocalizedName("blue_w").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_x = new BlockLetters(Material.wood).setUnlocalizedName("blue_x").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_y = new BlockLetters(Material.wood).setUnlocalizedName("blue_y").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		blue_z = new BlockLetters(Material.wood).setUnlocalizedName("blue_z").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 	}
 	
 	public static void register(){
@@ -70,6 +86,14 @@ public class LetterBlocks {
 		GameRegistry.registerBlock(blue_p, blue_p.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_q, blue_q.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_r, blue_r.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_s, blue_s.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_t, blue_t.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_u, blue_u.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_v, blue_v.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_w, blue_w.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_x, blue_x.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_y, blue_y.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(blue_z, blue_z.getUnlocalizedName().substring(5));
 	}
 	
 	public static void registerRenders(){
@@ -91,6 +115,14 @@ public class LetterBlocks {
 		registerRender(blue_p);
 		registerRender(blue_q);
 		registerRender(blue_r);
+		registerRender(blue_s);
+		registerRender(blue_t);
+		registerRender(blue_u);
+		registerRender(blue_v);
+		registerRender(blue_w);
+		registerRender(blue_x);
+		registerRender(blue_y);
+		registerRender(blue_z);
 	}
 	
 	public static void registerRender(Block block){

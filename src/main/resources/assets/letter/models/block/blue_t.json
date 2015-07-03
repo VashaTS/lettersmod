@@ -1,0 +1,32 @@
+{
+    "ambientocclusion": true,
+    "textures": {
+        "particle": "blocks/lapis_block",
+        "texture": "blocks/lapis_block"
+    },
+"elements": [ 
+{
+    "from": [ 6, 0, 12 ],
+    "to": [ 10, 12, 16 ],
+    "faces": {
+        "down":  { "uv": [ 10, 16, 6, 12 ], "texture": "#texture" },
+        "north": { "uv": [ 6, 4, 10, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 6, 4, 10, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 12, 4, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 4, 4, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 1, 12, 12 ],
+    "to": [ 15, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 15, 16, 1, 12 ], "texture": "#texture" },
+        "up":    { "uv": [ 1, 12, 15, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 1, 0, 15, 4 ], "texture": "#texture" },
+        "south": { "uv": [ 1, 0, 15, 4 ], "texture": "#texture" },
+        "west":  { "uv": [ 12, 0, 16, 4 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 4, 4 ], "texture": "#texture" }
+    }
+}
+]
+}
