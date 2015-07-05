@@ -64,6 +64,7 @@ public class LettersMod {
 		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_x), "D A"," C ","A D",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
 		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_y), "D A"," C "," C ",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
 		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_z), "BBB"," A ","BBB",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
+		GameRegistry.addRecipe(new ItemStack(LetterBlocks.blue_ap), " A","A ",'A',Items.stick,'B',LetterItems.horizontal_stick,'C',LetterItems.vertical_stick,'D',LetterItems.reverse_stick);
 	}
 	
 	@EventHandler

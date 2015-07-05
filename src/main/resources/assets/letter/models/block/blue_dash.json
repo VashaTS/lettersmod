@@ -1,0 +1,21 @@
+{
+    "ambientocclusion": true,
+    "textures": {
+        "particle": "blocks/lapis_block",
+        "texture": "blocks/lapis_block"
+    },
+"elements": [ 
+{
+    "from": [ 2, 6, 12 ],
+    "to": [ 14, 10, 16 ],
+    "faces": {
+        "down":  { "uv": [ 14, 16, 2, 12 ], "texture": "#texture" },
+        "up":    { "uv": [ 2, 12, 14, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 2, 6, 14, 10 ], "texture": "#texture" },
+        "south": { "uv": [ 2, 6, 14, 10 ], "texture": "#texture" },
+        "west":  { "uv": [ 12, 6, 16, 10 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 6, 4, 10 ], "texture": "#texture" }
+    }
+}
+]
+}
