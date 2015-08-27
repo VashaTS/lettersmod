@@ -4,6 +4,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -20,6 +21,16 @@ public class LettersMod {
 	public static CommonProxy proxy;
 	
 	public static final LettersTab tabLetters = new LettersTab("tabLetters");
+	
+	@Instance(value = Reference.MOD_ID) 
+    public static LettersMod instance;
+	
+	public enum GUI_ENUM
+	{
+		LETTERMAKER
+	}
+	
+	//public static BlockLM blocklm = new BlockLM();
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)

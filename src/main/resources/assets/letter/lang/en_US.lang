@@ -33,4 +33,5 @@ tile.blue_coma.name=Blue ,
 tile.blue_colon.name=Blue :
 tile.blue_semicolon.name=Blue ;
 tile.blue_dash.name=Blue -
+tile.LetterMaker.name=Letter Maker
 itemGroup.tabLetters=Letters

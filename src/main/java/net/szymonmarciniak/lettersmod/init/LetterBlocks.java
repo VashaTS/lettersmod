@@ -8,6 +8,7 @@ import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.szymonmarciniak.lettersmod.LettersMod;
 import net.szymonmarciniak.lettersmod.Reference;
+import net.szymonmarciniak.lettersmod.blocks.BlockLM;
 import net.szymonmarciniak.lettersmod.blocks.BlockLetters;
 
 public class LetterBlocks {
@@ -43,6 +44,7 @@ public class LetterBlocks {
 	public static Block blue_colon;
 	public static Block blue_semicolon;
 	public static Block blue_dash;
+	public static Block lettermaker;
 	
 	public static void init(){
 		blue_a = new BlockLetters(Material.wood).setUnlocalizedName("blue_a").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
@@ -77,6 +79,7 @@ public class LetterBlocks {
 		blue_colon = new BlockLetters(Material.wood).setUnlocalizedName("blue_colon").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_semicolon = new BlockLetters(Material.wood).setUnlocalizedName("blue_semicolon").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
 		blue_dash = new BlockLetters(Material.wood).setUnlocalizedName("blue_dash").setCreativeTab(LettersMod.tabLetters).setHardness(0.5F);
+		lettermaker = new BlockLM().setHardness(0.5F);
 	}
 	
 	public static void register(){
@@ -112,6 +115,8 @@ public class LetterBlocks {
 		GameRegistry.registerBlock(blue_colon, blue_colon.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_semicolon, blue_semicolon.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(blue_dash, blue_dash.getUnlocalizedName().substring(5));
+		GameRegistry.registerBlock(lettermaker, lettermaker.getUnlocalizedName().substring(5));
+		
 		
 	}
 	
@@ -148,6 +153,7 @@ public class LetterBlocks {
 		registerRender(blue_colon);
 		registerRender(blue_semicolon);
 		registerRender(blue_dash);
+		registerRender(lettermaker);
 	}
 	
 	public static void registerRender(Block block){

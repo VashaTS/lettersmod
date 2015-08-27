@@ -1,0 +1,8 @@
+{
+    "variants":{
+        "facing=north": { "model": "letter:LetterMaker" },
+        "facing=south": { "model": "letter:LetterMaker", "y": 180 },
+        "facing=west":  { "model": "letter:LetterMaker", "y": 270 },
+        "facing=east":  { "model": "letter:LetterMaker", "y": 90 }
+     }
+}
